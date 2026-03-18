@@ -25,5 +25,17 @@ public class StatisticsHelper {
             }
         }
         return max;
-}
+    }
+
+    public static int calculateMin(List<Integer> values) {
+        if (values.isEmpty()) return 0;
+
+        int min = values.get(0);
+        for (int v : values) {
+            if (v < min) {
+                min = v;
+            }
+        }
+        return min;
+    }
 }
