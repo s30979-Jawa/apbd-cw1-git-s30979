@@ -4,5 +4,6 @@ Inaczej mówiąc, main nie został zmieniony w żaden sposób pomiędzy utworzen
 spowrotem do głównej gałęzi.
 
 2. Merge a Rebase:
+ablablablaa
 
 3. Konflikt:
