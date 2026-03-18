@@ -8,4 +8,9 @@ public class StatisticsHelper {
         }
         return sum;
     }
+    public static double calculateAverage(List<Integer> values) {
+        if (values.isEmpty()) return 0;
+        int sum = calculateSum(values);
+        return (double) sum / values.size();
+    }
 }
