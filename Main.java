@@ -14,6 +14,12 @@ public class Main {
             numbers.add(Integer.parseInt(token));
         }
 
-        // Na razie nic nie robimy z numbers
+        try {
+            for (String token : line.split(" ")) {
+                numbers.add(Integer.parseInt(token));
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input. Please enter integers separated by spaces.");
+        }
     }
 }
