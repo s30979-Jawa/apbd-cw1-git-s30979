@@ -5,6 +5,7 @@ spowrotem do głównej gałęzi.
 Zatem, jeżeli są różnice pomiędzy gałęziami, dojdzie do / zostanie utworzony Merge Commit.
 
 2. Merge a Rebase:
-ablablablaa
+Merge łączy dwie gałęzie. Powstaje nowy commit.
+Rebase "przenosi" commity z gałęzi do innej, tak jakby niby one zawsze tam były. Nie ma nowego commita.
 
 3. Konflikt:
