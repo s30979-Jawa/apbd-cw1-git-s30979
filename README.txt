@@ -9,3 +9,6 @@ Merge łączy dwie gałęzie. Powstaje nowy commit.
 Rebase "przenosi" commity z gałęzi do innej, tak jakby niby one zawsze tam były. Nie ma nowego commita.
 
 3. Konflikt:
+Konflikt powstaje gdy dochodzi do różnych zmian tego samego pliku, w tej samej lini.
+Np.: zmiana wypisanego stringu.
+Konflikty muszą być manualnie rozwiązane (przez wybranie danej wersji/zmiany lub utworzenie nowej)
