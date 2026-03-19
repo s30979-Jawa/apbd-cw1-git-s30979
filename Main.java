@@ -18,7 +18,7 @@ public class Main {
         }
 
         int sum = StatisticsHelper.calculateSum(numbers);
-        System.out.println("Sum of numbers: " + sum);
+        System.out.println("Result (sum): " + sum);
 
         int min = StatisticsHelper.calculateMin(numbers);
         System.out.println("Min: " + min);
